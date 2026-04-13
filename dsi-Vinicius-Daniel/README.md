@@ -47,7 +47,7 @@ Exemplo de caminho:
 
 Algumas regras são fundamentais para escrever programas corretamente em Java.
 
-## 1. Todo código deve estar dentro de uma classe
+ ##1. Todo código deve estar dentro de uma classe
 
 Em Java, o programa sempre precisa estar dentro de uma classe.
 
@@ -58,7 +58,7 @@ public class Programa {
 
 }
 
-## 2. O programa começa pelo método main
+### 2. O programa começa pelo método main
 
 O ponto de entrada de um programa Java é o método main.
 public static void main(String[] args) {
@@ -123,3 +123,15 @@ A JVM interpreta o bytecode e executa o programa no sistema operacional.
 
 ## Explicação com as minhas palavras
 O java é uma linguagem bastante verbosa que exige código para realizar tarefas simples.Isso acontece porque ele prioriza a clareza,organização e a segurança,ele utiliza estruturas como classes,metódos e tipos bem definidos,por mais que pareça maior para escrever essas exigencias tornam o código mais legives estruturadio e fácil de entender 
+
+
+
+# Aula 04
+== -> igual
+=== -> Estritamente igual
+=> ou <= -> maior igual ou menor igual 
+ (pipe)|| -> ou
+ &&->e
+ 0 || 1-> 1bit
+ 8 bits = 1 byte 
+ 
