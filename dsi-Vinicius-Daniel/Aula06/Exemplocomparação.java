@@ -1,13 +1,24 @@
+import java.util.Scanner;
+
 public class Exemplocomparação{
     public static void main(String[] args) {
-        int age=26;
-        System.out.println(age>=18);//true, velho o sufuiciente pra votar, maior ou igual
-        System.out.println(age<=18);//false, muito novo para votar, menor ou igual
-         
-        boolean émaiordeidade=true;
-        boolean émenordeidade=false;
+        
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("pode votar:" + (émaiordeidade && !) );
+        System.out.print("Digite sua idade:");
+        int idade =scanner.nextInt();
+
+        if(idade >=16){
+            System.out.println("você pode votar parabéns");
+
+            
+        }
+        else{
+            System.out.println("você não pode votar parabéns você é um lixo");
+
+        }
+
+        scanner.close();
 
 
     }
