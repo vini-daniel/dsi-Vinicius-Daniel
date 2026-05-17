@@ -1,4 +1,4 @@
-
+package aula05;
 
 public class atribuição {
     public static void main(String[] args) {
